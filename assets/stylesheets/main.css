@@ -80,8 +80,10 @@ table {
 */
 
 body {
-  color: #888;
-  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  color: #637282;
+  font-family: AtlasGrotesk, Open Sans,sans-serif;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 
@@ -96,10 +98,11 @@ body {
   width: 100%;
   color: #af3b21;
   position: fixed;
+  align-items: center;
   -webkit-box-shadow: -2px 2px 5px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 2px 5px -1px rgba(0,0,0,0.75);
   box-shadow: 0 1px 4px 0 rgba(99,114,130,.15);
-  padding: 16px 16px 0 16px;
+  /* padding: 16px 16px 0 16px; */
   font-size: 20px;
   flex-direction: row;
   -webkit-flex-wrap: nowrap;
@@ -123,26 +126,38 @@ body {
   z-index: 1000;
 }
 
-.logo {
-  display: inline-block;
-}
 .header-title {
-  font-weight: 700;
+  margin-left: 5%;
+  font-weight: bold;
+  padding-bottom: 19px;
+  padding-top: 19px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
   font-size: 42px;
   float: left;
-  /* display: inline-block; */
-  /* margin-left: 3%; */
+}
+
+.header-image {
+  display: inline-block;
+  padding: 16px 0 19px 0;
+  /* height: 50px;  */
+  /* width50px; */
 }
 
 .header-nav {
+  height: 80px;
   float: right;
-  margin-right: 3%;
+  margin-right: 5%;
+  display: inline-block;
+  padding-bottom: 19px;
+  padding-top: 35px;
 }
 
 .header-nav-button {
   text-decoration: none;
-  color: #888;
+  color: #1d6891;
+  font-size: 16px;
+
 }
 
 /*
