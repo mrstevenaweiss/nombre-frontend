@@ -72,3 +72,93 @@ table {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+/*
+  ========================================
+  MAIN
+  ========================================
+*/
+
+body {
+  background: #6ca4b2;
+  color: #888;
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+
+/*
+  ========================================
+  HEADER / NAV
+  ========================================
+*/
+
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: #ef92a4;
+  position: fixed;
+  -webkit-box-shadow: -2px 2px 5px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 2px 5px -1px rgba(0,0,0,0.75);
+  box-shadow: -2px 2px 5px -1px rgba(0,0,0,0.75);
+
+}
+font-size: 20px;
+box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 2px 9px 1px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+padding: 16px 16px 0 16px;
+will-change: transform;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-webkit-flex-direction: row;
+-ms-flex-direction: row;
+flex-direction: row;
+-webkit-flex-wrap: nowrap;
+-ms-flex-wrap: nowrap;
+flex-wrap: nowrap;
+-webkit-box-pack: start;
+-webkit-justify-content: flex-start;
+-ms-flex-pack: start;
+justify-content: flex-start;
+-webkit-box-align: stretch;
+-webkit-align-items: stretch;
+-ms-flex-align: stretch;
+align-items: stretch;
+-webkit-align-content: center;
+-ms-flex-line-pack: center;
+align-content: center;
+-webkit-transition: -webkit-transform 0.233s cubic-bezier(0, 0, 0.21, 1) 0.1s;
+transition: -webkit-transform 0.233s cubic-bezier(0, 0, 0.21, 1) 0.1s;
+transition: transform 0.233s cubic-bezier(0, 0, 0.21, 1) 0.1s;
+transition: transform 0.233s cubic-bezier(0, 0, 0.21, 1) 0.1s, -webkit-transform 0.233s cubic-bezier(0, 0, 0.21, 1) 0.1s;
+z-index: 1000;
+
+
+.header-title {
+  font-size: 72px;
+  float: left;
+  display: inline-block;
+  margin-left: 3%;
+}
+
+.header-nav {
+  float: right;
+  margin-right: 3%;
+}
+
+.header-nav-button {
+  text-decoration: none;
+  color: #888;
+}
+
+/*
+  ========================================
+  MAIN
+  ========================================
+*/
+
+.call-to-action {
+  color:
+}
