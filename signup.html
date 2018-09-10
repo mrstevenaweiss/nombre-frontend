@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NOMBRE - the name memory app</title>
+    <meta name="description" content="Never forget a name.  Never forget a moment.  Web app that is free.  Nombre keeps memories memorable. ">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+
+    <header class="header">
+
+      <div class="header-image">
+        <img src="assets/images/fake-logo.png" alt="Pencil" height="50" width="50">
+      </div>
+
+      <div class="header-title">
+        <h1>nombre</h1>
+      </div>
+
+      <div class="header-nav">
+          <a href="download.html" class="header-nav-button download">Download the App</a> |
+          <a href="login.html" class="header-nav-button login">Login</a>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <section> <div class="section-wrapper layout-grid-frame"> <div id="signup-form" class="layout-twothirds-center"> <div id="unsupported-error" class="hidden error-message">
+                    <p>We're happy you're signing up for Trello!</p>
+                    <p>Before you get started, you'll need to <a href="/platforms">switch to a supported browser</a>.</p>
+       </div> <div id="error" class="hidden quick-switch"> <p class="error-message"></p> </div>   <div id="signup-password" class="quick-switch"> <div class="info-message hidden"></div> <h1>Create a Trello Account</h1> <span class="sign-in-account">or <a href="/login">sign in to your account</a></span> <div class="sign-up-container"> <label for="name">Name</label> <input type="text" name="name" id="name" tabindex="0" autocorrect="off" spellcheck="false" autocapitalize="off" value="" autofocus="" placeholder="e.g., Hikaru Sulu"> <label for="email">Email</label> <input type="email" name="email" id="email" tabindex="0" autocorrect="off" spellcheck="false" autocapitalize="off" value="" placeholder="e.g., sulu@starfleet.fed"> <div id="email-error" class="hidden error-message"></div> <label for="password">Password</label> <input type="password" name="password" id="password" tabindex="0" placeholder="e.g., ••••••••••••"> <div id="signup-enterprise-confirmation" class="hidden"> <label> <input type="checkbox"> </label> </div> <div id="recaptcha" class="g-recaptcha hidden" data-callback="recaptchaResponseCallback" data-expired-callback="recaptchaExpiredCallback" data-error-callback="recaptchaErrorCallback" data-sitekey="6Lc-PEwUAAAAANucGA7WWm-2gvS0ayk9q_-ber3S" style=""><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lc-PEwUAAAAANucGA7WWm-2gvS0ayk9q_-ber3S&amp;co=aHR0cHM6Ly90cmVsbG8uY29tOjQ0Mw..&amp;hl=en&amp;v=v1536180392857&amp;size=normal&amp;cb=evg5bai4upqj" width="304" height="78" role="presentation" name="a-i2xhs5nb1r70" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div> <input id="signup" tabindex="0" type="button" class="button button-green" value="Create New Account" disabled=""> <form id="signup-google" action="/authenticate_openid" method="post"> <input type="hidden" name="openid_identifier" value="https://www.google.com/accounts/o8/id"> <input type="hidden" id="tos-accepted" name="tosAccepted" value="true">  <input type="hidden" name="locale" id="signup-google-locale" value=""> <div id="google" class="google-button"> <span class="icon"></span> <span class="label">Sign up with Google</span> </div> </form> <p class="quiet tos"> By creating an account, you agree to our <a href="/legal" target="_blank">Terms of Service</a> <br> and <a href="/privacy" target="_blank">Privacy Policy</a>. </p> </div> </div>  </div> <div id="confirm-tos-container" class="layout-twothirds-center hidden"> <h1>Create a Trello Account</h1> <p> By signing up you agree to the <a href="/legal" target="_blank">Terms of Service</a> and <a href="/privacy" target="_blank">Privacy Policy</a>. </p> <input id="confirm-tos" tabindex="0" type="button" class="button button-green" value="I accept the Terms of Service and Privacy Policy"> </div> </div> </section>
+
+    </main>
+
+    <footer>
+      <!-- Footer content -->
+    </footer>
+
+    <script src="./scripts/app.js" async></script>
+  </body>
+</html>

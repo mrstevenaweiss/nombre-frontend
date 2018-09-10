@@ -162,20 +162,44 @@ body {
 
 /*
   ========================================
-  MAIN / JUMBOTRON
+  MAIN
   ========================================
 */
 
 .main {
-  padding-top: 90px;
+  padding-top: 100px;
+  height: auto;
 }
 
-.call-to-action {
-    margin-bottom: 0px;
-    background-image: url(assets/images/jumbo-brain.jpg);
-    background-position: 0% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
+/*
+  ========================================
+  CAll TO ACTION / SIGNUP
+  ========================================
+*/
+
+
+.call-row-container {
+  height: 380px;
+  width: 95%;
+  margin: 0 auto;
+  padding-top:
+
+}
+
+.brain-image-box {
+    display: inline-block;
+    /* margin-bottom: 0px; */
+    width: 55%;
+    float: none;
+}
+
+.tagline-signup {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+.brain-image {
+  /* display: inline-block; */
+  margin: 20px 0 0 20px;
 }
