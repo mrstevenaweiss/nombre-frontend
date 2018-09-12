@@ -67,7 +67,6 @@ table {
 
 }
 
-
 .container {
   padding-left: 30px;
   padding-right: 30px;
@@ -132,9 +131,17 @@ body {
   padding-bottom: 19px;
   padding-top: 19px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: black;
   font-size: 42px;
   float: left;
+}
+
+.header-title a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-title span {
+  color: #af3b21;
 }
 
 .header-image {
@@ -167,16 +174,29 @@ body {
 */
 
 .main {
-  padding-top: 100px;
+  padding-top: 80px;
   height: auto;
 }
 
 /*
   ========================================
-  CAll TO ACTION / SIGNUP
+  HERO / CAll TO ACTION
   ========================================
 */
 
+
+.hero {
+  background-color: #af3b21;
+  width: 100%;
+  line-height: 100px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size:
+  font: 
+}
 
 .call-row-container {
   height: 380px;
